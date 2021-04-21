@@ -1,9 +1,0 @@
-error
-exception
-warn
-fail
-debug
-wrong
-info
-fatal
-null
