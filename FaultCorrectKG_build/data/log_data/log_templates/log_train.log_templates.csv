@@ -1,0 +1,624 @@
+EventId,EventTemplate,Occurrences
+30c0e8ef,* Async loop,28
+c06b821d,at Method),2942
+85e0c3e4,at java.net.URLClassLoader.findClass(URLClassLoader.java:*),448
+0bd5c8b1,at java.lang.ClassLoader.loadClass(ClassLoader.java:*),896
+29cdb8c4,at java.lang.Class.forName(Class.java:*),208
+a6add755,debug*: identity file type *,60
+b1b55b5b,is not,207
+220aef20,util.NativeCodeLoader: Unable to load nativehadoop library for your platform using builtinjava classes where applicable,559
+3dd2f39c,the the,371
+bf9596d4,Rerun Maven using the X switch to enable full debug logging.,95
+7d0db380,at,15904
+04c4e1c2,jar *,47
+2aa88825,Exception in thread,967
+fb377654,at java.lang.Class.getMethod(Class.java:*),37
+d41d8cd9,,12114
+f7a5d316,at java.sql.DriverManager.getConnection(DriverManager.java:*),91
+dfec6dcc,Connecting to,64
+9226b145,no to,23
+3389dae3,*,49
+a2156158,will be,47
+6f04fa54,mapreduce.Job: Running job: job**,157
+f5d383f3,at scala.collection.AbstractIterator.foreach(Iterator.scala:*),24
+dbaa7cbd,at java.lang.Thread.run(Thread.java:*),583
+0e4c901c,Caused by:,986
+4122106a,at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:*),154
+d5566982,for,185
+4a16219e,at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:*),106
+c0d1557f,at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:*),171
+66265773,at org.apache.hadoop.hdfs.DistributedFileSystem.getFileStatus(DistributedFileSystem.java:*),73
+ead99c2f,to the,206
+cf7ca7d3,omitted for duplicate),27
+88f15eda,is to,116
+4593fd2d,error creating,30
+7022e39c,Could not find main,367
+573021e5,at org.apache.pig.Main.main(Main.java:*),91
+df6491b5,at java.lang.reflect.Method.invoke(Method.java:*),954
+16ec1a6b,at org.apache.hadoop.util.RunJar.main(RunJar.java:*),447
+60ea5657,at org.apache.hadoop.tools.mapred.CopyMapper.copyFileWithRetry(CopyMapper.java:*),20
+75a31b0e,at org.apache.hadoop.hbase.ipc.RpcServer.call(RpcServer.java:*),26
+e0f76102,at org.apache.hadoop.hbase.ipc.CallRunner.run(CallRunner.java:*),24
+1cccef46,at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:*),815
+0e386bca,at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:*),881
+85abaf31,Error in,133
+0eae0368,"Execution Error, return code * from",285
+bf67104f,to a,102
+f234f49b,: there is no,43
+52acfb8e,at org.apache.hadoop.hive.ql.exec.TaskRunner.runSequential(TaskRunner.java:*),40
+608fe2d3,Connecting to ResourceManager at,236
+0a5c857e,at org.apache.hadoop.streaming.PipeMapRed.waitOutputThreads(PipeMapRed.java:*),93
+a8d9711e,at org.apache.hadoop.streaming.PipeMapRed.mapRedFinished(PipeMapRed.java:*),147
+37339a67,Unable to,192
+193b7962,"File , line *, in",256
+58d3d157,at sun.security.jgss.GSSContextImpl.initSecContext(GSSContextImpl.java:*),23
+820965ec,ApplicationMaster host: N/A,34
+9416a531,does not exist,291
+141d3d41,GSS initiate failed,84
+e63d4eb4,java.io.IOException: Failed on local exception: Host : local host is: ; destination host is:,154
+5289ebb7,org.apache.hadoop.ipc.Server: IPC Server on,64
+a5bca3d4,at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:*),73
+5e340935,at org.apache.hadoop.ipc.Client.call(Client.java:*),317
+34fed525,at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:*),108
+88b91c80,* more,35
+267f62fc,at java.util.concurrent.FutureTask.run(FutureTask.java:*),238
+56fe498c,at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:*),454
+e395098e,"Task Id : attempt**m**, Status : FAILED",417
+16449371,at org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:*),215
+b19c96c9,at org.apache.hadoop.mapred.MapTask.run(MapTask.java:*),504
+24be6453,at javax.security.auth.Subject.doAs(Subject.java:*),921
+e0ab3fd6,at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:*),916
+3b250a83,at org.apache.hadoop.mapred.Child.main(Child.java:*),220
+6d43294c,at org.apache.hadoop.mapred.JobClient.runJob(JobClient.java:*),57
+31b25898,ParseException line *:* cannot recognize input near in,161
+bbe9fb3b,"Failing Oozie Launcher, Main class ,",67
+9bae4189,not in the,70
+1594eaee,at org.apache.hadoop.mapred.JobClient.submitJobInternal(JobClient.java:*),98
+66cca4ca,at org.apache.hadoop.mapred.JobClient.submitJob(JobClient.java:*),109
+393568b1,at org.apache.hadoop.fs.RawLocalFileSystem.mkdirs(RawLocalFileSystem.java:*),69
+c0eee01c,at java.io.ObjectInputStream.readObject*(ObjectInputStream.java:*),89
+b2fc0d96,at org.apache.hadoop.mapred.MapRunner.run(MapRunner.java:*),149
+c5bb9cdd,Oozie Launcher,25
+be0c9900,java.lang.ClassCastException: cannot be cast to,200
+6ce814ad,at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:*),47
+40fd6683,Final Memory: *M/*M,128
+797958cb,at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:*),93
+cac3af82,at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:*),136
+33cff0a9,log*j: No appenders could be found for logger,89
+1ee4b691,at java.lang.ClassLoader.defineClass(ClassLoader.java:*),129
+cf3025d7,impl.YarnClientImpl: Submitted application application**,126
+22540e32,"*,",20
+0a9c0d0e,line *: syntax unexpected,62
+63eedd23,file is,33
+87949148,at org.apache.hadoop.hive.ql.Driver.execute(Driver.java:*),34
+42d1fa40,* *,1775
+629b26e3,IPC Client (*) connection to from,47
+b5d3dda8,does not,86
+30411b7a,of the,40
+445ca053,sqoop.Sqoop: Running Sqoop version:,65
+64b9fba6,occurred during processing of,39
+31feb5ef,is be in a,46
+a5bdb502,at org.apache.hadoop.ipc.Client.getConnection(Client.java:*),73
+eeba5052,socket connection *.*:*,62
+9a5908a7,at java.io.DataInputStream.read(DataInputStream.java:*),25
+250e9cd9,at Source),495
+c3e2b43e,has the,45
+c480d3e6,does not exist:,233
+b41adcff,at org.apache.hadoop.mapreduce.filecache.ClientDistributedCacheManager.getFileStatus(ClientDistributedCacheManager.java:*),44
+90e99f99,native library,85
+847a6705,at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:*),95
+3cecc585,at py*j.reflection.MethodInvoker.invoke(MethodInvoker.java:*),26
+4440f4f9,unrecognized service,33
+95a48edf,No such file or directory,635
+7cd0f027,at org.apache.hadoop.io.IOUtils.cleanup(IOUtils.java:*),33
+78c97dd4,at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:*),300
+f9bf53a0,at org.apache.sqoop.mapreduce.ImportJobBase.runImport(ImportJobBase.java:*),31
+445fcbb4,"*, *",215
+f78410e6,at org.apache.sqoop.tool.ImportTool.importTable(ImportTool.java:*),73
+f7bb2d08,(Mechanism level: find,36
+37df8ad3,at org.apache.sqoop.Sqoop.run(Sqoop.java:*),89
+bab7b561,at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:*),361
+820be065,at org.apache.sqoop.Sqoop.runSqoop(Sqoop.java:*),115
+2b6dad3c,at org.apache.sqoop.Sqoop.runTool(Sqoop.java:*),141
+e39c52cf,at org.apache.sqoop.Sqoop.main(Sqoop.java:*),70
+bde94e6c,at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:*),173
+7fa6d805,at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:*),285
+82abe3a7,at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:*),17
+0f394b2d,at org.apache.hadoop.hive.cli.CliDriver.run(CliDriver.java:*),86
+f94896bb,at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:*),167
+65a3840d,at org.apache.hadoop.util.RunJar.run(RunJar.java:*),161
+50744b96,at org.apache.hadoop.mapreduce.lib.input.FileInputFormat.getSplits(FileInputFormat.java:*),40
+ea80bf46,at org.apache.hadoop.mapreduce.JobSubmitter.writeNewSplits(JobSubmitter.java:*),32
+395e886b,at org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:*),110
+aa4e0d1d,at org.apache.hadoop.mapreduce.Job.submit(Job.java:*),174
+a2c47b5b,java.lang.IllegalArgumentException: Wrong FS: expected: file:///,51
+c73a78d5,at org.apache.hadoop.fs.FileSystem.checkPath(FileSystem.java:*),37
+15a2dafd,at org.apache.hadoop.fs.FileSystem.exists(FileSystem.java:*),60
+874f238a,Failed with exception,55
+d2874bc1,at org.apache.hadoop.ipc.Client.wrapException(Client.java:*),30
+41d4022e,* G,23
+6d0fd2b3,streaming.StreamJobPatch: Arg:,16
+dec51b3a,Master: Removing because it is,21
+581164b6,at org.apache.sqoop.mapreduce.ImportJobBase.doSubmitJob(ImportJobBase.java:*),26
+8723a35e,failed to,81
+18091193,at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:*),106
+01fc42ab,I* *,36
+e69951b2,command not found,281
+25ffdde9,at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:*),30
+dfac8ab9,at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:*),74
+84992768,at org.apache.hadoop.fs.RawLocalFileSystem.getFileStatus(RawLocalFileSystem.java:*),51
+48d026a7,failed with,189
+d3050393,exited with exit code,120
+996413fb,Last * bytes of :,44
+3c10f7d7,Failing the application.,84
+bf979016,mapreduce.Job: map * reduce *,341
+9a16d811,"is deprecated. Instead, use",331
+b9fb29bb,No for,97
+5ccbec9c,Failed to,441
+4794a308,on the is,84
+8c81d19f,is *,73
+c20acca6,SLF*J: Actual binding is of type,99
+fcb36ee8,* (*,154
+ea2188c2,manager.SqlManager: Executing SQL statement: SELECT t.* FROM AS t LIMIT *,73
+92889a4c,java.net.SocketTimeoutException: Read timed out,45
+bce21a15,hadoop fs,41
+aceb578d,at org.apache.hadoop.fs.FileUtil.copy(FileUtil.java:*),58
+e49f87ba,java.net.ConnectException: Connection refused,125
+439b8a6f,at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:*),41
+33b43dd5,*: Unhandled internal error.,57
+5fcc7949,Details at logfile: *,84
+f632fd0f,at org.apache.hadoop.streaming.PipeMapRunner.run(PipeMapRunner.java:*),63
+9953f2a8,at org.apache.thrift.transport.TSaslTransport.open(TSaslTransport.java:*),31
+299341b3,at scala.Option.foreach(Option.scala:*),41
+e6ebb3e8,SemanticException : Line *:*,76
+e7816a4d,at org.apache.hadoop.fs.FilterFileSystem.mkdirs(FilterFileSystem.java:*),33
+a21572aa,Failed to execute goal on project,113
+66eb9f22,error: cannot find symbol,186
+f77002d2,location: class,87
+2823f407,cannot Permission denied,140
+7a58d4a6,Could not,242
+d66cd8e6,security.UserGroupInformation: PriviledgedActionException,31
+194a7b0e,java.net.BindException: in,51
+2e0f7ea0,at org.apache.hadoop.service.AbstractService.init(AbstractService.java:*),100
+7d6196e1,at org.apache.hadoop.service.CompositeService.serviceInit(CompositeService.java:*),47
+24f7abf2,java.io.FileNotFoundException: File,29
+4d4ee9f1,metrics system,35
+4e0a6252,Error starting,53
+c9a57b89,Including in the shaded jar.,127
+a7b5717a,line *,82
+5982676d,at org.codehaus.janino.UnitCompiler.compile(UnitCompiler.java:*),16
+8c6898b5,at org.apache.hadoop.hive.ql.exec.Operator.initializeChildren(Operator.java:*),27
+162e2d6e,have the,62
+9c9f2831,at org.apache.hadoop.hive.ql.exec.Operator.close(Operator.java:*),25
+a7d684e3,you are,24
+5690649f,at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.getFileInfo(ClientNamenodeProtocolTranslatorPB.java:*),31
+991ab26a,version * */*/*,35
+9a11a771,at at,208
+b5909489,java.lang.ClassLoader.loadClass(ClassLoader.java:*) at,43
+f99e5a5e,: of *,75
+5fe44606,for more information.,35
+d53f33eb,not a,86
+c872c5ce,Application report for application** (state: ACCEPTED),159
+d3b15f57,signal for,29
+7f4c942b,spark.SecurityManager: Changing acls to:,58
+e17d06d5,with with,38
+dbbff05e,org.apache.hadoop.hdfs.server.datanode.DataNode: Problem connecting to,41
+e54614c5,User class threw exception:,42
+7cfcbd91,at org.apache.spark.deploy.yarn.ExecutorLauncher.main(ApplicationMaster.scala),18
+16de7f4e,Deleting directory,32
+2f319696,Shutdown hook called,40
+db7aca70,: *,144
+14c275f7,java.lang.OutOfMemory Java heap space,90
+6925438f,org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:*) at,33
+1c685747,javax.security.auth.Subject.doAs(Subject.java:*) at,53
+c618332d,Starting secondary namenodes,108
+a526cde2,at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:*),19
+0f127ec7,Logging initialized using configuration in,51
+b27d2be7,at org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:*),30
+6fa9e6b3,at py*j.commands.CallCommand.execute(CallCommand.java:*),32
+b7cb7a5c,at org.apache.sqoop.mapreduce.ImportJobBase.runJob(ImportJobBase.java:*),34
+a6b65b17,at org.apache.hadoop.conf.Configuration.getClass(Configuration.java:*),145
+860605bd,at org.apache.hadoop.conf.Configuration.getClassByName(Configuration.java:*),79
+7a5bc183,at java.lang.ProcessBuilder.start(ProcessBuilder.java:*),18
+8381bc6b,at org.sonatype.aether.impl.internal.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:*),18
+5d280705,at org.apache.hadoop.hive.cli.CliDriver.executeDriver(CliDriver.java:*),47
+0d6e1b12,*: Unable to,91
+d0af5bf1,Container killed by the ApplicationMaster.,54
+06651c3b,JobId Alias Feature Message Outputs,26
+1cb213f7,java.io.IOException: Job failed!,21
+fc9b781f,records *,27
+1fa3ceb1,mapreduce.Job: Job job** running in uber mode : false,120
+cb5e100e,error,27
+e23b7d7c,at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:*),71
+c22970b8,org.apache.pig.backend.executionengine.ExecException: *:,25
+b5d221cb,This script is,33
+c3012cc8,lz*: true revision:*,23
+cd9b7426,unable to,38
+1fde7c52,at java.io.BufferedInputStream.fill(BufferedInputStream.java:*),24
+2c47158d,at py*j.GatewayConnection.run(GatewayConnection.java:*),28
+d888e992,at org.apache.sqoop.mapreduce.AutoProgressMapper.run(AutoProgressMapper.java:*),39
+da209a6c,RECEIVED SIGNAL *: SIGTERM,39
+e09c2dc2,at org.apache.hadoop.hive.cli.CliDriver.processLocalCmd(CliDriver.java:*),51
+1d5c7b0a,at org.apache.hadoop.hive.cli.CliDriver.processLine(CliDriver.java:*),91
+e308b5fb,with has is for,31
+a80e7413,help for,31
+bbbac974,Apache .. SUCCESS,165
+64a4c0f6,mapred.LocalJobRunner: task executor complete.,24
+98c1c16f,. SKIPPED,225
+1e42e38a,.. SKIPPED,124
+75c92b19,at org.apache.hadoop.hive.ql.parse.BaseSemanticAnalyzer.analyze(BaseSemanticAnalyzer.java:*),19
+10e22001,BUILD FAILURE,69
+c0c68108,Total input paths to process : *,211
+a1d1a069,Finished at: ***T:*,48
+b8f20fc7,at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:*),79
+8166fd0d,at org.apache.hadoop.fs.RawLocalFileSystem.getFileStatus(RawLocalFileSys,16
+579cc00a,Status Code: AWS Amazon AWS Request ID: AWS Error Code: AWS Error Request ID:,46
+6b77f0ce,"* *,* *,*",35
+f1024e2a,at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:*),45
+69185d24,at *:*,22
+34d1c1c8,at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:*),37
+33c38b2b,manager.MySQLManager: Preparing to use a MySQL streaming resultset.,46
+a84d56ee,tool.CodeGenTool: Beginning code generation,37
+cda8b84b,orm.CompilationManager: is,28
+4a986b4a,Note: * or a deprecated API.,44
+a25a0e14,with for details.,56
+fba53bd0,Encountered IOException running import job:,49
+1296b7c6,Hive Runtime Error while,30
+774db547,java.lang.ClassNotFoundException: Class not found,159
+0c008cc3,mapreduce.JobSubmitter: number of splits:*,81
+491d13c0,mapreduce.JobSubmitter: Submitting tokens for job: job**,74
+cabb1d0a,Hadoop commandline option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.,67
+cbd4404e,at org.apache.hadoop.util.Shell.runCommand(Shell.java:*),44
+e4614cf7,at org.apache.hadoop.util.Shell.execCommand(Shell.java:*),49
+4011fb44,at org.apache.hadoop.fs.RawLocalFileSystem.setPermission(RawLocalFileSystem.java:*),48
+665da660,Output directory,44
+f4b14aff,start time: *,40
+7c41c38b,Time taken: * seconds,41
+7dd4932e,is is,48
+1c60433b,Starting namenodes on,122
+dcf8e3aa,running as process *. Stop it first.,74
+9f9ff08b,* *:,92
+a6497ba5,starting logging to,352
+7627e13d,Operation not permitted,35
+047533cd,db*a: full log in *.*binhadoop**.spark.deploy.worker.Worker*db*a.out,38
+9e6cc88a,at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:*),22
+4ec503be,dfs,28
+2904e006,has been,39
+93be23e6,at org.apache.spark.deploy.yarn.Client.main(Client.scala),35
+bf466d9a,Import No module named,40
+30bfe338,MapReduce Jobs Launched:,25
+041d4466,Instead use the hdfs command for it.,36
+ae8cc2b9,* ResourceManager,26
+ecae0e7e,symbol: class,94
+32dc2140,at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:*),41
+b929f3e2,at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:*),70
+567f5f90,at org.apache.spark.scheduler.Task.run(Task.scala:*),142
+0a604afc,at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:*),39
+46128e05,final status:,33
+add0ab52,at org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerLaunch.call(ContainerLaunch.java:*),50
+f90d740e,Trying to,46
+318d70a1,at org.apache.hadoop.fs.FilterFileSystem.getFileStatus(FilterFileSystem.java:*),29
+ccd279b1,java.io.IOException: Task process exit with nonzero status of *.,74
+e00eaf91,at org.apache.pig.PigServer.openIterator(PigServer.java:*),31
+5b9d1112,at org.apache.hadoop.hdfs.server.datanode.DataNode.makeInstance(DataNode.java:*),32
+cf8c5cfb,at org.apache.hadoop.hdfs.server.datanode.DataNode.instantiateDataNode(DataNode.java:*),40
+5fd44266,at org.apache.hadoop.hdfs.server.datanode.DataNode.createDataNode(DataNode.java:*),30
+adf90060,at org.apache.hadoop.hdfs.server.datanode.DataNode.main(DataNode.java:*),35
+b11eb870,at org.apache.hadoop.yarn.server.nodemanager.NodeManager.serviceInit(NodeManager.java:*),33
+dd461a19,starting yarn daemons,61
+00520152,at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:*),44
+4533c23c,at org.apache.hadoop.service.AbstractService.stop(AbstractService.java:*),24
+0bb58a13,at org.apache.hadoop.service.ServiceOperations.stop(ServiceOperations.java:*),27
+8eded298,at org.apache.hadoop.service.ServiceOperations.stopQuietly(ServiceOperations.java:*),27
+a8ff5487,at org.apache.hadoop.service.CompositeService.stop(CompositeService.java:*),19
+dd970b38,at org.apache.hadoop.service.CompositeService.serviceStop(CompositeService.java:*),20
+5d017207,at org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor.launchContainer(DefaultContainerExecutor.java:*),26
+2c1ad2b8,at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:*),23
+f9ceda0a,java.io.IOException: class: class not class,57
+93cb71fc,at scala.Option.getOrElse(Option.scala:*),113
+b959a6db,java.io.IOException: No on,27
+98a1443e,DFS Used%: *%,49
+8808a470,with *,96
+446d3349,Name: *,28
+60f78f6b,SLF*J: Class path contains multiple SLF*J bindings.,65
+b96223e7,SLF*J: Found binding in,142
+40fcd5b1,at org.apache.hadoop.hive.ql.parse.SemanticAnalyzer.analyzeInternal(SemanticAnalyzer.java:*),20
+c7b36f48,SIMPLE authentication is not enabled. Available:,42
+16c0991f,org.apache.pig.Main Logging error messages to:,39
+c1891721,at org.apache.hadoop.ipc.RemoteException.unwrapRemoteException(RemoteException.java:*),26
+f0af05de,at io.netty.channel.AbstractChannelHandlerContext.invokeFlush*(AbstractChannelHandlerContext.java:*),27
+6a9058ce,at org.apache.hadoop.hive.ql.exec.Task.executeTask(Task.java:*),54
+f5179fe9,at org.apache.hadoop.hive.ql.Driver.run(Driver.java:*),97
+341bb153,Call From to failed on connection exception: java.net.ConnectException: Connection For more details see:,257
+c22ee445,ING: Use to,36
+4a79e4d5,at org.apache.hadoop.hive.ql.parse.HiveParser.createTableStatement(HiveParser.java:*),20
+cd82b12b,at org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher.launchPig(MapReduceLauncher.java:*),29
+4b93b48b,at org.apache.hadoop.io.compress.DecompressorStream.read(DecompressorStream.java:*),28
+b6304451,at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:*),56
+bec05f1d,at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:*),92
+5da1cde2,at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:*),65
+bbfcbc3a,at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:*),55
+2aec608c,at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:*),93
+f521a966,at org.apache.hadoop.hive.ql.Driver.compile(Driver.java:*),117
+e020ca73,tool.BaseSqoopTool: Unrecognized argument:,61
+47db26c1,Some problems were encountered while building the effective model for,45
+ca7772bd,The is,43
+f05f901e,Error from attempt**m**:,58
+e4993791,at org.apache.hadoop.hive.ql.session.SessionState.createRootHDFSDir(SessionState.java:*),17
+c0472f5b,at org.apache.hadoop.hive.ql.session.SessionState.createSessionDirs(SessionState.java:*),18
+848ae260,at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:*),48
+d3ae55ab,at java.util.concurrent.FutureTask.get(FutureTask.java:*),31
+62d8ff8b,at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:*),28
+a19350c3,***T session.SessionState:,23
+0c2c23bb,: Attempting to on hdfs as root,42
+dda965dd,zlib.ZlibFactory: Successfully loaded & initialized nativezlib library,24
+a8954485,Got brandnew,28
+8b3306d7,at org.apache.hadoop.fs.FileSystem.loadFileSystems(FileSystem.java:*),23
+6cb864bf,at org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:*),64
+cff58194,java.lang.IllegalArgumentException: not a valid,42
+4d5aca61,at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:*),27
+aba8d49b,at org.apache.hadoop.hdfs.server.namenode.NameNode.getAddress(NameNode.java:*),27
+294e1e9d,at org.apache.hadoop.util.ProgramDriver.run(ProgramDriver.java:*),27
+c015ef9e,at org.apache.hadoop.fs.FSDataOutputStream.close(FSDataOutputStream.java:*),28
+4875ec95,at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:*),25
+610f690c,at org.junit.runners.BlockJUnit*ClassRunner.runChild(BlockJUnit*ClassRunner.java:*),28
+7ce8087e,at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:*),19
+7eaea1b6,at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:*),67
+d953092a,at org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:*),47
+d1dbe0f9,at org.apache.hadoop.mapred.FileInputFormat.getSplits(FileInputFormat.java:*),40
+9b74b935,at org.apache.hadoop.mapred.JobClient.writeOldSplits(JobClient.java:*),22
+4b11d715,#* at,30
+6af3720c,Submitting application to ResourceManager,24
+574f6b85,Apache Hadoop SKIPPED,479
+7c8db43d,Total time:,101
+47a4dfe5,starting at,38
+e9a24093,at org.apache.hadoop.util.ReflectionUtils.setJobConf(ReflectionUtils.java:*),89
+9e3703a9,at org.apache.hadoop.mapred.MapRunner.configure(MapRunner.java:*),27
+fcb1c940,ApplicationMaster RPC port: *,34
+43ba8066,at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getBlockLocations(FSNamesystem.java:*),28
+9c17bb40,at org.apache.hadoop.hdfs.server.namenode.NameNode.format(NameNode.java:*),36
+2a7c5c0d,at org.apache.hadoop.hive.ql.exec.DDLTask.createTable(DDLTask.java:*),20
+16884650,at org.apache.hadoop.hive.ql.exec.DDLTask.execute(DDLTask.java:*),24
+2f408851,at javax.servlet.http.HttpServlet.service(HttpServlet.java:*),63
+d66d276c,Unexpected exception,29
+9d36b395,at java.io.DataInputStream.readFully(DataInputStream.java:*),16
+ace72540,Shutting down at,65
+0bb855a4,* to,29
+1a4d59e8,at org.apache.hive.hcatalog.mapreduce.HCatInputFormat.setInput(HCatInputFormat.java:*),26
+68dc31eb,at org.apache.ambari.server.controller.AmbariHandlerList.processHandlers(AmbariHandlerList.java:*),16
+ca98c97a,threw exception,32
+eb3bb8a9,debug*: sent,25
+641fb15c,symbol: variable,27
+6f940628,* at,78
+37682221,orm.ClassWriter: Overriding type of column to string,84
+d687e638,"* *,",23
+8bae17f4,Error while statement:,75
+e1726922,Illegal character in at index *:,32
+66bac233,to *,66
+2c538a54,of *,63
+caf3546e,* in,27
+08ec7a6c,java.io.IOException: Type mismatch in from map: expected,119
+037d9301,at java.lang.Thread.join(Thread.java:*),36
+d828790a,for *,83
+25b4f6d3,at org.apache.hadoop.fs.LocalDirAllocator.getLocalPathForWrite(LocalDirAllocator.java:*),51
+7823c48c,from to,46
+df69a1c8,at org.apache.hadoop.service.AbstractService.start(AbstractService.java:*),53
+6da2752b,at org.apache.pig.tools.grunt.Grunt.exec(Grunt.java:*),42
+6f1a23f7,org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): task's state:UNASSIGNED,25
+ee298725,org.apache.hadoop.mapred.JvmManager: JVM jvm**m*,46
+95509758,at org.apache.hadoop.io.IOUtils.copyBytes(IOUtils.java:*),36
+53832da3,at org.apache.hadoop.fs.FileSystem.copyFromLocalFile(FileSystem.java:*),32
+2e21b3ee,at org.apache.hadoop.fs.FsShell.run(FsShell.java:*),33
+2761b94b,at org.apache.hadoop.fs.FsShell.main(FsShell.java:*),22
+d529e941,not,25
+527b6cb2,a the,26
+e1d6bd37,at org.apache.hadoop.fs.FileUtil.checkReturnValue(FileUtil.java:*),31
+d98a07f8,from,29
+e4e5d8c9,at org.mortbay.jetty.Server.handle(Server.java:*),31
+7971d6bb,at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:*),25
+4758a43f,at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:*),27
+1f6d9763,at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:*),21
+4fde525c,java.lang.Throwable: Child Error,31
+5418ec21,at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:*),22
+9afa23c1,Starting datanodes,37
+b11894a5,at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:*),23
+c465baba,CREATE TABLE,23
+ca1e1bf6,java.lang.ArrayIndexOutOfBoundsException: *,43
+bb479fba,at org.apache.pig.PigServer.execute(PigServer.java:*),24
+d4934ead,at org.apache.spark.SparkContext.runJob(SparkContext.scala:*),63
+2e4e2c40,at java.io.ObjectOutputStream.writeObject*(ObjectOutputStream.java:*),24
+a7d58850,Retrying connect to server: Already tried * time(s).,153
+143fdf18,org.apache.hadoop.mapred.TaskAttemptListenerImpl: Ping from attempt**m**,31
+b76f1f45,java.io.IOException: failed,22
+73c08882,PriviledgedActionException (auth:SIMPLE),26
+b3cb0f2c,client token: N/A,56
+62365dbe,queue: default,25
+e2092a51,tracking URL:,29
+8371783c,at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala),77
+fd0766dc,at org.apache.hadoop.hive.ql.exec.Operator.forward(Operator.java:*),31
+dcd9ae6a,at org.apache.sqoop.manager.GenericJdbcManager.getConnection(GenericJdbcManager.java:*),29
+432db841,at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:*),52
+f47b535c,at WordCount.main(WordCount.java:*),28
+04e19e79,: Coyote HTTP* on http*,23
+693f07c2,could not be,79
+b626e567,at java.lang.NumberFormatException.forInputString(NumberFormatException.java:*),55
+1cc2800a,or not,46
+77270e33,at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:*),85
+52080ac3,at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:*),49
+54544c79,at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:*),30
+9e44f8c9,at org.apache.maven.cli.MavenCli.main(MavenCli.java:*),27
+c91a5af4,at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:*),30
+6ad7ca84,at org.sonatype.aether.impl.internal.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:*),18
+cfbbb421,at org.apache.thrift.protocol.TBinaryProtocol.readI*(TBinaryProtocol.java:*),26
+b00b7fd8,at org.apache.hadoop.fs.RawLocalFileSystem.pathToFile(RawLocalFileSystem.java:*),21
+bbc4bee4,at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:*),69
+ef7b79ba,The not,24
+543ac659,at org.apache.hadoop.util.ProgramDriver.driver(ProgramDriver.java:*),37
+14d5c726,at org.apache.sqoop.mapreduce.db.DBRecordReader.nextKeyValue(DBRecordReader.java:*),25
+1f0b6c96,at org.apache.oozie.command.XCommand.call(XCommand.java:*),21
+0c1dbc69,SERVER USER GROUP TOKEN APP JOB ACTION,42
+052dd749,at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:*),38
+8325c3bf,at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:*),25
+7e5f2826,at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:*),24
+b959b194,at java.lang.Integer.parseInt(Integer.java:*),77
+7833c361,at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:*),19
+900d41bb,at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:*),22
+5ef6f3ca,at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:*),23
+361bf70d,at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:*),20
+1aa8d916,Native library checking:,30
+6a3166a8,at com.amazonaws.services.s*.AmazonS*Client.invoke(AmazonS*Client.java:*),19
+1d8adbf3,true *.*,24
+6ed89128,at org.apache.hadoop.tools.mapred.CopyMapper.map(CopyMapper.java:*),20
+f1b0ab39,at java.io.BufferedOutputStream.write(BufferedOutputStream.java:*),27
+14dcb473,to start,28
+262f99d5,at org.apache.avro.generic.GenericDatumReader.read(GenericDatumReader.java:*),28
+82fcf9af,Name node is in,61
+8a5bdb3d,at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:*),25
+4a832993,at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:*),30
+a7fbf06b,at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:*),30
+55f19581,should,23
+991350b8,Built File: *,25
+477de2be,out after *,29
+ec3bda1b,at org.apache.hadoop.http.NoCacheFilter.doFilter(NoCacheFilter.java:*),24
+76b2ed2c,storage.BlockManager: Found block broadcast* locally,19
+84f96f12,at org.apache.spark.rdd.HadoopRDD.getPartitions(HadoopRDD.scala:*),25
+86345dc5,"* *,*,* *,*,*",26
+0650f17c,",,, ,,, flow null * null null null",193
+8887fe3e,Version: *.*,21
+4ef9124b,at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:*),25
+3af663b3,at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:*),31
+1dc04205,at org.apache.maven.wagon.AbstractWagon.getTransfer(AbstractWagon.java:*),16
+99b07fab,pig.ExecTypeProvider: ExecType,25
+966e3f4f,: optimizer.SortedDynPartitionOptimizer: Sorted dynamic partitioning optimization kicked in..,27
+ee446c50,Scanning for projects,23
+4c4a3777,namenode.FSEditLogLoader (FSEditLogLoader.java:loadEditRecords(*)) replaying edit log: */* transactions completed. (*),22
+292fcaed,diagnostics: N/A,25
+d4cbcb13,at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:*),25
+73b3f521,Streaming Command Failed!,28
+855ee6a2,Successfully * records,18
+88f2bace,at org.apache.thrift.transport.TSocket.open(TSocket.java:*),31
+1d0009ed,at org.apache.hadoop.mapreduce.lib.jobcontrol.ControlledJob.submit(ControlledJob.java:*),20
+5db79be1,java.lang.RuntimeException: The root scratch dir:* Current permissions are:,31
+e20c0676,* SecondaryNameNode,26
+9008de81,NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL,122
+4f260366,at org.apache.hadoop.mapred.TaskTracker.localizeJob(TaskTracker.java:*),26
+01b6e203,to,38
+92ddb3da,at org.apache.hive.jdbc.HiveStatement.execute(HiveStatement.java:*),37
+b2816170,at org.apache.hive.jdbc.HiveStatement.executeQuery(HiveStatement.java:*),19
+811d5028,at org.apache.spark.serializer.JavaDeserializationStream.readObject(JavaSerializer.scala:*),25
+736e12a9,at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:*),21
+336cc63f,at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:*),29
+33e8c7ac,Found * items,60
+61798c49,* M,24
+3d88ed3f,took *ms,23
+0998c0ee,from *,31
+e6156cd6,at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:*),57
+8d0831d8,Connection reset by,47
+6204f77e,Cannot create directory,24
+ae5478f6,string from deserializer,37
+27450990,Elephant Bird SKIPPED,41
+0b209e91,at org.apache.hadoop.mapred.TaskTracker.initializeJob(TaskTracker.java:*),22
+f3519bbf,"reference to `invokeMethod(JNIEnv*, jvalue*, jthrowable**, MethType,",79
+dfa4231b,for client,27
+782f9ab1,at org.apache.spark.rdd.RDD.partitions(RDD.scala:*),74
+9e2d32df,at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:*),22
+c4fb995d,at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:*),24
+4e9098b9,at py*j.Gateway.invoke(Gateway.java:*),29
+3e2e00f6,at org.apache.hadoop.fs.FileContext.getFileContext(FileContext.java:*),143
+802c4ee4,at org.apache.hadoop.hive.ql.parse.HiveParser.execStatement(HiveParser.java:*),21
+ca1a1aeb,at org.apache.hadoop.hive.ql.parse.HiveParser.statement(HiveParser.java:*),28
+b6f6e3bd,at org.apache.hadoop.hive.ql.parse.ParseDriver.parse(ParseDriver.java:*),45
+b7b13167,at org.apache.hadoop.hive.ql.Driver.compileInternal(Driver.java:*),31
+b8d22055,at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:*),27
+99689525,at org.apache.hadoop.mapreduce.JobSubmitter.checkSpecs(JobSubmitter.java:*),28
+28b3bdde,at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:*),36
+b21136bd,Master: Launching executor app***.**,18
+b0162461,drwxrxrx supergroup * *** *:*,118
+4391140d,for our AM container,47
+d31957f4,at org.apache.hadoop.yarn.util.FSDownload.call(FSDownload.java:*),39
+1b79559a,at org.apache.hive.jdbc.HiveConnection.openTransport(HiveConnection.java:*),25
+8afcfbcf,at org.apache.hadoop.conf.Configuration.get(Configuration.java:*),21
+2d79c04f,Task has completed successfully.,28
+e9ef025c,org.apache.hadoop.util.RunJar.run(RunJar.java:*) at,32
+b6e8586d,at org.apache.hadoop.examples.ExampleDriver.main(ExampleDriver.java:*),29
+a1e98eb1,at com.sun.jersey.server.impl.uri.rules.SubLocatorRule.accept(SubLocatorRule.java:*),19
+24770959,* kB,37
+d8946df4,at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:*),50
+53f497a1,at java.io.ObjectInputStream.readObject(ObjectInputStream.java:*),28
+622e8343,at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:*),35
+f087d871,at org.apache.hadoop.mapreduce.lib.output.FileOutputFormat.checkOutputSpecs(FileOutputFormat.java:*),25
+a607b09d,version *.*,31
+2297aec5,at org.apache.hadoop.mapreduce.TaskInputOutputContext.write(TaskInputOutputContext.java:*),30
+84584a79,at sun.nio.ch.Net.bind(Net.java:*),33
+b3788fc4,hdfs.DFSClient: Caught exception,25
+fd7e4a12,Driver stacktrace:,26
+1344a77c,Mahout SKIPPED,31
+e6132e8b,Ambari,31
+6a468a62,at org. apache java: *),30
+a728d57c,at org.apache.hadoop.mapreduce.task.MapContextImpl.nextKeyValue(MapContextImpl.java:*),28
+cd6ab112,at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:*),19
+cf1e8c14,server,28
+97e532fd,at org.apache.hadoop.fs.FileSystem.open(FileSystem.java:*),30
+73c1025b,at java.lang.Class.getMethod*(Class.java:*),28
+9e56413d,at com.sun.security.sasl.gsskerb.GssKrb*Client.evaluateChallenge(GssKrb*Client.java:*),24
+a156a643,cannot,23
+adce657d,* process information unavailable,38
+742b153a,org.apache.hadoop.mapred.JobTracker: task 'attempt**m**',45
+5cd9b306,at org.apache.hadoop.mapreduce.v*.app.MRAppMaster.initAndStartAppMaster(MRAppMaster.java:*),19
+f2ab9799,at org.apache.hadoop.mapreduce.v*.app.MRAppMaster.main(MRAppMaster.java:*),25
+cb9a0837,#* Mar * (InputStreamReaderRunnable.java:run:*): Stream spark:,40
+a9079231,: Registering as a class,72
+0bee14f2,C:\Users\anant\AppData\Local\Temp\cc*LXDc.o:test*.cpp:(.text+*x*): undefined,30
+d5f2d96e,cygpath: can't convert empty path,24
+187589ec,*: request,30
+c7509355,Exception while,30
+cfea2c7a,to class,30
+55263952,at (MavenCli.java:*),40
+615fd29c,at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:*),16
+054c784e,at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:*),26
+00067581,at org.apache.kylin.job.execution.AbstractExecutable.execute(AbstractExecutable.java:*),21
+07e01702,. SUCCESS,105
+e7ba67ea,at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:*),21
+a574c4bc,at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkLease(FSNamesystem.java:*),23
+4ac370e0,at org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigGenericMapBase.map(PigGenericMapBase.java:*),24
+d95e719f,at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:*),41
+499205fd,at employee.loadFromFields(employee.java:*),20
+1599fa45,at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:*),22
+31244079,* common frames omitted,24
+42772b77,Merger Merging * sorted segments,28
+e51266a3,in handle(),23
+d65fcd35,at org.apache.spark.rdd.RDD.withScope(RDD.scala:*),50
+2fe683da,for and,24
+bcebf21a,"org.apache.pig.builtin., org.apache.pig.impl.builtin.]",25
+36cd38f4,source,17
+e1d50330,at org.apache.sqoop.mapreduce.TextExportMapper.map(TextExportMapper.java:*),64
+9a88b5fe,at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:*),20
+c496265a,at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:*),27
+15bf41ce,at org.codehaus.janino.UnitCompiler.compile*(UnitCompiler.java:*),22
+cc50dfff,at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:*),24
+d08e4699,db*a: at gnu.java.lang.MainThread.run(libgcj.so.*rh),37
+7743b2b9,at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:*),22
+ded6511c,at org.apache.thrift.transport.TSaslClientTransport.open(TSaslClientTransport.java:*),18
+66d1cf1f,containerPort: *,29
+4aa5393d,debug*: received,20
+c436bdba,debug*: Next authentication method:,18
+07f6e7f0,in doFilter(),25
+994d2a7a,at com.sun.jersey.spi.container.servlet.ServletContainer.doFilter(ServletContainer.java:*),28
+cc039896,at org.apache.hadoop.hive.ql.exec.Operator.initialize(Operator.java:*),42
+e33c8432,db*a: at java.lang.ClassLoader.loadClass(libgcj.so.*rh),32
+cd707e6c,mapreduce.ImportJobBase: Beginning import of,16
+503dee74,at org.apache.hadoop.fs.shell.Command.run(Command.java:*),21
+d336fd45,at org.apache.hadoop.hdfs.server.namenode.INodeFile.valueOf(INodeFile.java:*),23
+6fc66b4d,at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:*),29
+4f2995f6,* down,30
+9a6415cf,at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:*),16
+c4d28432,* import,41
+d01bd0d9,Hit *,68
+2ddf686a,at org.apache.hive.jdbc.HiveQueryResultSet.next(HiveQueryResultSet.java:*),17
+6c3e226b,NULL,24
+52123da4,checking yes,36
+ffd230e2,exited: zookeeper (exit status *; not expected),18
+1cd269f9,Chapter *: SUCCESS,28
+2b006c6e,*** PDT Spark* at,38
+30c91a47,seekvideo NULL * *,30
+96f0a089,"*, char const*, char const*, char const*, )'",53
