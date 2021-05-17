@@ -195,6 +195,6 @@ def get_tags():
 
 
 if __name__ == '__main__':
-    graph = Graph('http://localhost:7474', username='neo4j', password='sjj,1996')  # 连接neo4j数据库
+    graph = Graph('http://localhost:7474', username='neo4j', password='neo4j')  # 连接neo4j数据库
 
     server.run(port=5001, debug=True, host='0.0.0.0')

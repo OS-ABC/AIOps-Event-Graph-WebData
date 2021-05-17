@@ -190,7 +190,7 @@ def link_nodes_by_similarity(graph, type):
 
 
 if __name__ == '__main__':
-    graph = Graph('http://localhost:7474', username='neo4j', password='sjj,1996')  # 连接neo4j数据库
+    graph = Graph('http://localhost:7474', username='neo4j', password='neo4j')  # 连接neo4j数据库
     graph.delete_all()  # 删除历史数据
 
     # 初步创建图谱节点和关系

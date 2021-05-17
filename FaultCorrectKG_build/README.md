@@ -11,6 +11,7 @@
 - similarity_calculate_data目录下存放文本相似度计算相关文件
 - stackoverflow_hadoop_pages目录下存放爬取的tag为hadoop的页面
 - thesaurus目录下存放模板中用到的所有触发词词库
+- nltk_data目录下存放自然语言处理相关工具包
 ```
 2.logparser目录下存放日志模板生成用到的模型程序，共14种
 
@@ -26,12 +27,24 @@
 
 8.similarity_calculate.py 文本相似度计算相关程序
 ## 项目运行
-1.运行knowledge_extract.py进行知识抽取
+注意：python_version = 3.6.8
 
-2.运行log_template_extract.py生成日志模板
+1.项目根目录下运行命令：
+pip install -r requirements.txt
 
-3.运行similarity_calculate.py训练word2vec模型
+2.将data目录下的nltk_data目录移动到root目录下
 
-4.运行build_graph.py生成图谱并存储到neo4j图数据库
+3.运行knowledge_extract.py进行知识抽取
 
-5.运行get_graph_data_api.py开放图谱可视化所需要用的后端接口
+4.运行log_template_extract.py生成日志模板
+
+5.运行similarity_calculate.py训练word2vec模型
+
+6.在neo4j-community-3.5.18/bin目录下执行./neo4j start启动neo4j
+```
+浏览器访问localhost:7474，输入账号和密码，均为neo4j
+```
+
+7.运行build_graph.py生成图谱并存储到neo4j图数据库
+
+8.运行get_graph_data_api.py开放图谱可视化所需要用的后端接口

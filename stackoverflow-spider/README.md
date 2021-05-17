@@ -16,9 +16,14 @@
 处理每个爬取的页面的程序；每个页面按照序号命名并以html文件的格式存储在相应的位置
 ```
 ## 项目运行
-1.在命令行将当前路径切换至当前项目的spiders目录下
+注意：python_version = 3.6.8
 
-2.命令行spiders目录下运行命令：
+1.项目根目录下运行命令：
+pip install -r requirements.txt
+
+2.在命令行将当前路径切换至当前项目的spiders目录下
+
+3.命令行spiders目录下运行命令：
 ```
 scrapy crawl stackoverflow-hadoop
 其中stackoverflow-hadoop为爬虫项目名，与spiders/stackoverflow_spiders.py中指定的name一致

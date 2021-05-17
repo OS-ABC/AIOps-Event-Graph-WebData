@@ -23,13 +23,13 @@ class StackoverflowSpider(scrapy.Spider):
 
     name = "stackoverflow-hadoop"
 
-    tag = "openstack"
+    tag = "hadoop"
 
     index = 1
 
     def start_requests(self):
         _url = 'https://stackoverflow.com/questions/tagged/' + self.tag + '?page={page}&sort=votes&pagesize=50'
-        urls = [_url.format(page=page) for page in range(1, 56)]
+        urls = [_url.format(page=page) for page in range(1, 862)]
 
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
