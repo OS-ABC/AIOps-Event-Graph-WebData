@@ -27,8 +27,6 @@
 
 8.similarity_calculate.py 文本相似度计算相关程序
 ## 项目运行
-注意：python_version = 3.6.8
-
 1.项目根目录下运行命令：
 pip install -r requirements.txt
 

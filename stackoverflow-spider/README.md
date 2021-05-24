@@ -16,8 +16,6 @@
 处理每个爬取的页面的程序；每个页面按照序号命名并以html文件的格式存储在相应的位置
 ```
 ## 项目运行
-注意：python_version = 3.6.8
-
 1.项目根目录下运行命令：
 pip install -r requirements.txt
 
